@@ -118,3 +118,4 @@ echo "OK - $SERVER_NAME is running. IP: $NETWORK, is running as well and has bei
 docker-compose up -d  --build
 
 
+

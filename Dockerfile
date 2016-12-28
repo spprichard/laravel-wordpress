@@ -34,7 +34,7 @@ RUN php composer-setup.php --install-dir=/usr/bin --filename=composer
 RUN php -r "unlink('composer-setup.php');"
 
 #Install gulp
-RUN yarn global add --no-bin-links gulp
+RUN yarn global add --no-bin-links gulp bower grunt-cli
 
 #Used to turn on modrewrite for apache
 RUN a2enmod rewrite
